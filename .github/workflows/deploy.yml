@@ -11,6 +11,6 @@ jobs:
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BUILD_SCRIPT: npm install && npm run build
-        BUILD_DIR: .vuepress/dist
+        BUILD_SCRIPT: git config --global --add safe.directory "*" && npm install && npm run build
+        BUILD_DIR: dist
         CNAME: https://tsq.me
