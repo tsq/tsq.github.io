@@ -1,7 +1,6 @@
 module.exports = {
   "title": "程序员阿汤",
   "description": "Stay Hungry Stay Foolish",
-  "dest": "dist",
   "head": [
     [
       "link",

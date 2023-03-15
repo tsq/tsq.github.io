@@ -14,5 +14,5 @@ jobs:
         TARGET_REPO: tsq/tsq.github.io
         TARGET_BRANCH: main
         BUILD_SCRIPT: npm install && npm run build
-        BUILD_DIR: dist
+        BUILD_DIR: .vuepress/dist
         CNAME: https://tsq.me
