@@ -11,8 +11,6 @@ jobs:
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: tsq/tsq.github.io
-        TARGET_BRANCH: main
         BUILD_SCRIPT: npm install && npm run build
         BUILD_DIR: .vuepress/dist
         CNAME: https://tsq.me
