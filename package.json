@@ -1,0 +1,17 @@
+{
+  "name": "tsq.github.io",
+  "version": "1.0.0",
+  "author": "tsq",
+  "scripts": {
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev . --open --host \"localhost\"",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build .",
+    "start": "vuepress dev ."
+  },
+  "devDependencies": {
+    "vuepress": "1.5.4",
+    "vuepress-theme-reco": "1.6.17"
+  },
+  "dependencies": {
+    "vue-class-component": "^7.2.3"
+  }
+}
