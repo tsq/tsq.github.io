@@ -4,6 +4,16 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: deploy
+      uses: jenkey2011/vuepress-deploy@master
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BUILD_SCRIPT: git config --global --add safe.directory "*" && npm install && npm run build
+        BUILD_DIR: dist
+        CNAME: https://tsq.me    
     - name: notify
       uses: wei/curl@master
       with:
