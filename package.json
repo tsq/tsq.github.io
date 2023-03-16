@@ -1,17 +1,17 @@
 {
-  "name": "tsq.github.io",
-  "version": "1.0.0",
-  "author": "tsq",
+  "name": "vuepress-theme-reco-demo",
+  "version": "2.0.0",
+  "description": "Demo for vuepress-theme-reco@2.x.",
+  "repository": "git@github.com:recoluan/vuepress-theme-reco-demo.git",
+  "author": "reco_luan <recoluan@outlook.com>",
+  "license": "MIT",
   "scripts": {
-    "dev": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev . --open --host \"localhost\"",
-    "build": "vuepress build .",
-    "start": "vuepress dev ."
-  },
-  "devDependencies": {
-    "vuepress": "1.5.4",
-    "vuepress-theme-reco": "1.6.17"
+    "dev": "vuepress dev .",
+    "start": "vuepress dev .",
+    "build": "vuepress build ."
   },
   "dependencies": {
-    "vue-class-component": "^7.2.3"
+    "vuepress": "2.0.0-beta.60",
+    "vuepress-theme-reco": "2.0.0-beta.53"
   }
 }
