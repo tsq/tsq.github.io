@@ -53,7 +53,7 @@ export default defineUserConfig({
     docsBranch: "main",
     docsDir: "",
     editLinkText: "在Github上编辑",
-    lastUpdatedText: "更新于",
+    lastUpdated: false,
     catalogTitle: "目录",
     autoSetBlogCategories: false,
     navbar: [
