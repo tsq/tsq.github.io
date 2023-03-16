@@ -1,7 +1,5 @@
 name: Build and Deploy
 on: [push]
-env:
-  env_var: ${{ vars.KEY }}
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -9,4 +7,4 @@ jobs:
     - name: notify
       uses: wei/curl@master
       with:
-        args: https://sctapi.ftqq.com/${{vars.SERVER_JIANG}}.send?title=blog
+        args: https://sctapi.ftqq.com/${{SERVER_JIANG}}.send?title=blog
