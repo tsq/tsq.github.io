@@ -7,4 +7,4 @@ jobs:
     - name: notify
       uses: wei/curl@master
       with:
-        args: https://sctapi.ftqq.com/${{SERVER_JIANG}}.send?title=blog
+        args: https://sctapi.ftqq.com/${{secrets.SERVER_JIANG}}.send?title=blog
