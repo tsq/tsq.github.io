@@ -1,6 +1,7 @@
 name: Build and Deploy
 on: [push]
-env_var: ${{ vars.KEY }}
+env:
+  env_var: ${{ vars.KEY }}
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
