@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-5a0bbb94","path":"/tags/Aliyun-ECS/1/","title":"","lang":"en-US","frontmatter":{"layout":"Categories"},"headers":[],"git":{},"filePathRelative":null}');export{t as data};
